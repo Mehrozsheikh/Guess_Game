@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+        <h1>Guess Number Game</h1>
+        <hr>
+        <div id="mid-box1">
+            <label for="guessField">Enter a Guess Below</label>
+            <br>
+            <input type = "text" id = "guessField" class = "guessField">
+            <br>
+            <button type = "submit" class = "guessSubmit" id = "submitguess">OK?</button>
+        </div>
+        <div id="mid-box2">
+            <h1>CONGRATULATIONS!!!</h1>
+            <p>YOU GUESSED IT RIGHT IN</p>
+            <br>
+            <h2 id="tries">1</h2>
+            <p>GUESS</p>
+        </div>
+        <div id="mid-box3">
+            <h1>OOPS SORRY!!!</h1>
+            <p>YOU HAVE GUESSED</p>
+            <br>
+            <h2>5</h2>
+            <p>TIMES</p>
+        </div>
+        <hr>
+        <div id="rem-guess">
+            <p>Remaining Guesses</p>
+            <h2 id="num-of-guess">5</h2>
+        </div>
+        <div id="play-again">
+            <p>Do you want to play again?</p>
+            <button class ="confirm-button" id="yes">Yes!</button>
+            <button class ="confirm-button" id="no">No!</button>
+        </div>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
